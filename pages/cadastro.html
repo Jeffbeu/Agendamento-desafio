@@ -27,8 +27,8 @@
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta3/css/bootstrap.min.css'
 		integrity='sha512-N415hCJJdJx+1UBfULt+i+ihvOn42V/kOjOpp1UTh4CZ70Hx5bDlKryWaqEKfY/8EYOu/C2MuyaluJryK1Lb5Q=='
 		crossorigin='anonymous' />
-	<link href="css/style2.css" rel="stylesheet">
-	<link href="css/date.css" rel="stylesheet">
+	<link href="../css/style2.css" rel="stylesheet">
+	<link href="../css/date.css" rel="stylesheet">
 	<!-- Template CSS files  // -->
 </head>
 
@@ -45,7 +45,7 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid" style="padding-right: 56px;">
           <a class="navbar-brand" href="#">
-            <img class="nm-mg" src="./images/White.png" width="150" alt="espaco campeao">
+            <img class="nm-mg" src="../images/White.png" width="150" alt="espaco campeao">
           </a>
           <a class="d-flex" id="sair" href="#">Logout</a>
         </div>
@@ -84,7 +84,7 @@
 				<h5>Informações Adicionais</h5>
 				<div class="col-md-4">
 				  <label for="inputEmail4" class="form-label">Nome Completo</label>
-				  <input type="email" class="form-control" id="inputEmail4">
+				  <input type="email" class="form-control" id="inputEmail4" required>
 				</div>
 				<div class="col-md-4">
 				  <label for="inputPassword4" class="form-label">Senha</label>
@@ -92,37 +92,37 @@
 				</div>
 				<div class="col-md-4">
 					<label for="inputdatanasc" class="form-label">Data de nascimento</label>
-					<input type="date" class="form-control" id="inputdate">
+					<input type="date" class="form-control" id="inputdate" required>
 				  </div>
 				  <h5>Informações Adicionais</h5>
 				  <div class="col-md-3">
 					<label for="inputCep4" class="form-label">CEP</label>
-					<input type="number" class="form-control" id="inputCep" placeholder="00000-000">
+					<input type="number" class="form-control" id="inputCep" placeholder="00000-000" required>
 				  </div>
 				  <div class="col-md-5">
 					<label for="inputendereco" class="form-label">Endereço</label>
-					<input type="text" class="form-control" id="inputendereco" placeholder="Seu endereço">
+					<input type="text" class="form-control" id="inputendereco" placeholder="Seu endereço" required>
 				  </div>
 				  <div class="col-md-1">
 					<label for="inputnumero" class="form-label">Numero</label>
-					<input type="number" class="form-control" id="inputnumero" placeholder="00">
+					<input type="number" class="form-control" id="inputnumero" placeholder="00" required>
 				  </div>
 				  <div class="col-md-3">
 					<label for="inputnumero" class="form-label">Bairro</label>
-					<input type="text" class="form-control" id="inputbairro" placeholder="Ex: Seu bairo">
+					<input type="text" class="form-control" id="inputbairro" placeholder="Ex: Seu bairo" required>
 				  </div>
 				  <span></span>
 				  <div class="col-md-5">
 					<label for="inputcomple" class="form-label">Complemento</label>
-					<input type="text" class="form-control" id="inputcomple" placeholder="EX: ao lado do mercado">
+					<input type="text" class="form-control" id="inputcomple" placeholder="EX: ao lado do mercado" required>
 				  </div>
 				  <div class="col-md-5">
 					<label for="inputmuni" class="form-label">Municipio</label>
-					<input type="text" class="form-control" id="inputmuni" placeholder="Digite seu municipio">
+					<input type="text" class="form-control" id="inputmuni" placeholder="Digite seu municipio" required>
 				  </div>
 				  <div class="col-md-2">
 					<label for="inputuf" class="form-label">UF</label>
-					<input type="text" class="form-control" id="inputuf" placeholder="EX: RJ">
+					<input type="text" class="form-control" id="inputuf" placeholder="EX: RJ" required>
 				  </div>
 				<div class="col">
 				  <button type="submit" class="btn btn-outline-primary">Voltar</button>
@@ -175,8 +175,8 @@
 	<!-- Vendor JS files // -->
 	  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
 	<!-- Template JS files // -->
-	<script src="js/script.js"></script>
-	<script src="js/date.js"></script>
+	<script src="../js/script.js"></script>
+	<script src="../js/date.js"></script>
 	<!-- Template JS files // -->
 </body>
 
